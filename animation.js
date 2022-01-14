@@ -37,7 +37,7 @@ var loader = new THREE.GLTFLoader();
 //     });
 // var object2;	 
 /* END YOJIVIA STUFF */
-loader.load( 'images/D2LogoAqua3D.gltf', function ( gltf ) {  
+loader.load( 'public/images/D2LogoAqua3D.gltf', function ( gltf ) {  
 object = gltf.scene;	                    
 gltf.scene.scale.set( 2, 2, 2 );			   
 gltf.scene.position.x += 1;			    //Position (x = right+ left-) 
